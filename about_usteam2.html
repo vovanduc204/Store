@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-aplayersome/4.5.0/css/font-aplayersome.min.css">
+	<link rel="stylesheet" href="https://use.fontaplayersome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-route.js"></script>
+<style>
+.column {display: none; /* Hide all elements by default */}
+.content {background-color: white;padding: 30px;border: black solid 1px;}
+.content_n1 {background-color: white;padding: 30px;border: black solid 1px;}
+.show {display: block;}
+.btn {border: none;outline: none;padding: 12px 16px;background-color: black;cursor: pointer;border-radius: none}
+.btn.active { background-color: black; color: white;}
+.btn:hover{
+  color: red;
+  border-radius: white solid 1px;
+}
+img{border-radius: 50%;text-align: center;width: 100%;}
+.images_parlax{
+	height: 300px;
+    background: url(team.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+}
+.count{
+  background-color: black;
+  color: white;
+  height: auto;
+}
+.pro{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.images_colum{
+  margin: 15px 0px;
+}
+.position{
+  text-align: center;
+}
+</style>
+</head>
+<body >
+	<div class="container images_parlax"></div>
+  <div class="container count" >
+    <div class="row">
+      <div style="font-size: 50px;color: white;text-align: center;">Scores</div>
+    </div>
+    <div class="col-md-3">
+      <div class="pro row">
+        <h3 class="counter">199</h3>
+        <h2>A Nhân hahaha 200(Đ)</h2>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="pro row" >
+        <h3 class="counter_1">98</h3>
+        <h2>Kiên non-sleeping</h2>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="pro row">
+        <h3 class="counter_2">99</h3>
+        <h2>M.Đức cart</h2>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="pro row">
+        <h3 class="counter_3">99</h3>
+        <h2>An design</h2>
+      </div>
+    </div>
+    
+  </div>
+  <div class="container images_parlax"></div>
+  <div class="container" >
+    <div class="row" style="text-align: center;height: 100px;margin-top:50px">Team</div>
+    <div id="myBtnContainer" class="row" style="text-align: center;background-color: black;padding-top: 50px;padding-bottom: 50px">
+    <div class="btn active col-md-2" onclick="filterSelection('all')"> Show all</div>
+      <button class="btn col-md-2" onclick="filterSelection('development')"> Development</button>
+      <button class="btn col-md-2" onclick="filterSelection('design')"> Design</button>
+      <button class="btn col-md-2" onclick="filterSelection('people')"> People</button>
+      <button class="btn col-md-2" onclick="filterSelection('people')"> People</button>
+      <button class="btn col-md-2" onclick="filterSelection('people')"> People</button>
+    </div>
+</div>
+
+<div class="container">
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 development column images_colum">
+		<div class="content">
+			<img src="avatar.png">
+        <div class="position">
+          <h4>Developer</h4>
+          <p>Story...</p>
+        </div>
+		</div>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 development column images_colum">
+		<div class="content">
+			<img src="avatar.png">
+			    <div class="position">
+            <h4>Developer</h4>
+            <p>Story...</p>   
+          </div>
+		</div>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 development column images_colum">
+		<div class="content">
+			<img src="avatar.png">
+			     <div class="position">
+            <h4>Developer</h4>
+            <p>Story...</p>   
+          </div>
+		</div>
+	</div>
+  <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 development column images_colum">
+    <div class="content">
+      <img src="../images/index_background/avatar.png">
+          <div class="position">
+            <h4>Developer</h4>
+            <p>Story...</p>   
+          </div>
+    </div>
+  </div>
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 design column images_colum" >
+		<div class="content_n1">
+			<img src="avatar.png">
+			     <div class="position">
+             <h4>Design</h4>
+              <p>Story...</p>
+           </div>
+		</div>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 design column images_colum" >
+		<div class="content_n1">
+			<img src="avatar.png">
+			<div class="position">
+             <h4>Design</h4>
+              <p>Story...</p>
+           </div>
+		</div>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 design column images_colum">
+		<div class="content_n1">
+			<img src="avatar.png">
+			<div class="position">
+             <h4>Design</h4>
+              <p>Story...</p>
+           </div>
+		</div>
+	</div>
+  <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 design column images_colum" >
+    <div class="content_n1">
+      <img src="avatar.png">
+     <div class="position">
+             <h4>Design</h4>
+              <p>Story...</p>
+           </div>
+    </div>
+  </div>
+</div>
+<div class="container images_parlax"></div>
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+  }
+}
+
+function AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 25000,
+            });
+             $('.counter_1').counterUp({
+                delay: 10,
+                time: 10000,
+            });
+              $('.counter_2').counterUp({
+                delay: 10,
+                time: 15000,
+            });
+              $('.counter_3').counterUp({
+                delay: 10,
+                time: 16000,
+            });
+        });
+</script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
+    <script src="jquery.counterup.min.js"></script>
+</body>
+</html>
