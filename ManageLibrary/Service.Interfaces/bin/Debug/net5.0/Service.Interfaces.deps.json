@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Service.Interfaces/1.0.0": {
+        "dependencies": {
+          "Domain.Model": "1.0.0"
+        },
+        "runtime": {
+          "Service.Interfaces.dll": {}
+        }
+      },
+      "Domain.Model/1.0.0": {
+        "dependencies": {
+          "Library.Core": "1.0.0"
+        },
+        "runtime": {
+          "Domain.Model.dll": {}
+        }
+      },
+      "Library.Core/1.0.0": {
+        "runtime": {
+          "Library.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Service.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

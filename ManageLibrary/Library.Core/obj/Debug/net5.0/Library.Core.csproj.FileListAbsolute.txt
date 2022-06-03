@@ -1,0 +1,12 @@
+D:\example\dddexnew\ManageLibrary\Library.Core\bin\Debug\net5.0\Library.Core.deps.json
+D:\example\dddexnew\ManageLibrary\Library.Core\bin\Debug\net5.0\Library.Core.dll
+D:\example\dddexnew\ManageLibrary\Library.Core\bin\Debug\net5.0\ref\Library.Core.dll
+D:\example\dddexnew\ManageLibrary\Library.Core\bin\Debug\net5.0\Library.Core.pdb
+D:\example\dddexnew\ManageLibrary\Library.Core\obj\Debug\net5.0\Library.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\example\dddexnew\ManageLibrary\Library.Core\obj\Debug\net5.0\Library.Core.AssemblyInfoInputs.cache
+D:\example\dddexnew\ManageLibrary\Library.Core\obj\Debug\net5.0\Library.Core.AssemblyInfo.cs
+D:\example\dddexnew\ManageLibrary\Library.Core\obj\Debug\net5.0\Library.Core.csproj.CoreCompileInputs.cache
+D:\example\dddexnew\ManageLibrary\Library.Core\obj\Debug\net5.0\Library.Core.dll
+D:\example\dddexnew\ManageLibrary\Library.Core\obj\Debug\net5.0\ref\Library.Core.dll
+D:\example\dddexnew\ManageLibrary\Library.Core\obj\Debug\net5.0\Library.Core.pdb
+D:\example\dddexnew\ManageLibrary\Library.Core\obj\Debug\net5.0\Library.Core.csproj.AssemblyReference.cache

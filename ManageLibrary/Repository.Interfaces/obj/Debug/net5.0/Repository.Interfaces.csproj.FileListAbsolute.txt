@@ -1,0 +1,17 @@
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\bin\Debug\net5.0\Repository.Interfaces.deps.json
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\bin\Debug\net5.0\Repository.Interfaces.dll
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\bin\Debug\net5.0\ref\Repository.Interfaces.dll
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\bin\Debug\net5.0\Repository.Interfaces.pdb
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\bin\Debug\net5.0\Domain.Model.dll
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\bin\Debug\net5.0\Library.Core.dll
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\bin\Debug\net5.0\Domain.Model.pdb
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\bin\Debug\net5.0\Library.Core.pdb
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.csproj.AssemblyReference.cache
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.AssemblyInfoInputs.cache
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.AssemblyInfo.cs
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.csproj.CoreCompileInputs.cache
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.csproj.CopyComplete
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.dll
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\ref\Repository.Interfaces.dll
+D:\example\dddexnew\ManageLibrary\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.pdb

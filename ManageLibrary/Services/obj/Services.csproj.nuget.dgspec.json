@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\example\\dddexnew\\ManageLibrary\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj",
+        "projectName": "Domain.Model",
+        "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\MGI-DEV-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MGI-DEV-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\example\\dddexnew\\ManageLibrary\\Library.Core\\Library.Core.csproj": {
+                "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Library.Core\\Library.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\example\\dddexnew\\ManageLibrary\\Library.Core\\Library.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\example\\dddexnew\\ManageLibrary\\Library.Core\\Library.Core.csproj",
+        "projectName": "Library.Core",
+        "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Library.Core\\Library.Core.csproj",
+        "packagesPath": "C:\\Users\\MGI-DEV-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\example\\dddexnew\\ManageLibrary\\Library.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MGI-DEV-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\example\\dddexnew\\ManageLibrary\\Repository.Interfaces\\Repository.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\example\\dddexnew\\ManageLibrary\\Repository.Interfaces\\Repository.Interfaces.csproj",
+        "projectName": "Repository.Interfaces",
+        "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Repository.Interfaces\\Repository.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\MGI-DEV-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\example\\dddexnew\\ManageLibrary\\Repository.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MGI-DEV-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\example\\dddexnew\\ManageLibrary\\Service.Interfaces\\Service.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\example\\dddexnew\\ManageLibrary\\Service.Interfaces\\Service.Interfaces.csproj",
+        "projectName": "Service.Interfaces",
+        "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Service.Interfaces\\Service.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\MGI-DEV-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\example\\dddexnew\\ManageLibrary\\Service.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MGI-DEV-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\example\\dddexnew\\ManageLibrary\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\example\\dddexnew\\ManageLibrary\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\MGI-DEV-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\example\\dddexnew\\ManageLibrary\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MGI-DEV-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Domain.Model\\Domain.Model.csproj"
+              },
+              "D:\\example\\dddexnew\\ManageLibrary\\Repository.Interfaces\\Repository.Interfaces.csproj": {
+                "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Repository.Interfaces\\Repository.Interfaces.csproj"
+              },
+              "D:\\example\\dddexnew\\ManageLibrary\\Service.Interfaces\\Service.Interfaces.csproj": {
+                "projectPath": "D:\\example\\dddexnew\\ManageLibrary\\Service.Interfaces\\Service.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
